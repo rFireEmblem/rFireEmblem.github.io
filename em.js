@@ -1,5 +1,6 @@
 let data = {
-  "engage": {
+  "engage":
+  {
     "sections": ["Renders", "Emblems", "Official Art"],
     "flairs": [
       [
@@ -94,19 +95,20 @@ let data = {
       ]
     ]
   },
-  "threehouses": {
-    "sections": ["Portraits", "Official Art", "Related"],
+  "threehouses":
+  {
+    "sections": ["Player Character", "Black Eagles / Adrestian Empire", "Blue Lions / Kingdom of Faerghus", "Golden Deer / Leicester Alliance", "Ashen Wolves", "Officer's Academy / Church of Seiros", "Those Who Slither in the Dark", "Official Art", "Related"],
     "flairs": [
-      [
-        ":M_Byleth:",
+      [":M_Byleth:",
         ":BylethM_P2:",
         ":BylethF_P1:",
         ":BylethF_P2:",
         ":Shez_M:",
         ":Shez_F:",
         ":Sothis:",
-        ":Arval:",
-        ":El_P1:",
+        ":Arval:"
+      ],
+      [":El_P1:",
         ":El_P2:",
         ":El_P3:",
         ":El_Y:",
@@ -134,7 +136,17 @@ let data = {
         ":Monica-1:",
         ":Monica-2:",
         ":Monica_P3:",
-        ":Dimitri_P1:",
+        ":Ladislava:",
+        ":Randolph:",
+        ":Fleche:",
+        ":Bergliez:",
+        ":Hevring:",
+        ":Varley:",
+        ":Duke_Aegir:",
+        ":Arundel:",
+        ":Ionius:",
+      ],
+      [":Dimitri_P1:",
         ":Dimitri_P3:",
         ":Dimitri_P2-2:",
         ":Dimitri_Y:",
@@ -159,7 +171,16 @@ let data = {
         ":Ashe_P1:",
         ":Ashe_P3:",
         ":Ashe_P2:",
-        ":Claude_P1:",
+        ":Gwendal:",
+        ":Lonato:",
+        ":Gilbert:",
+        ":Rodrigue:",
+        ":Gautier:",
+        ":Miklan:",
+        ":Rufus:",
+        ":Lambert:"
+      ],
+      [":Claude_P1:",
         ":Claude_P3:",
         ":Claude_P2:",
         ":Hilda_P1:",
@@ -184,7 +205,13 @@ let data = {
         ":Ignatz_P3:",
         ":Ignatz_P2:",
         ":Holst:",
-        ":Yuri_P1:",
+        ":Acheron:",
+        ":Judith:",
+        ":Gloucester:",
+        ":Nader:",
+        ":Shahid:",
+      ],
+      [":Yuri_P1:",
         ":Yuri_P3:",
         ":Yuri_P2:",
         ":Coco_P1-1:",
@@ -198,8 +225,9 @@ let data = {
         ":Hapi_P2:",
         ":Balthus_P1:",
         ":Balthus_P3:",
-        ":Balthus_P2:",
-        ":Rhea:",
+        ":Balthus_P2:"
+      ],
+      [":Rhea:",
         ":Rhea-2:",
         ":Seteth:",
         ":Flayn:",
@@ -219,28 +247,8 @@ let data = {
         ":Anna_3H-2:",
         ":Anna_3H:",
         ":Seiros:",
-        ":Ladislava:",
-        ":Randolph:",
-        ":Fleche:",
-        ":Bergliez:",
-        ":Hevring:",
-        ":Varley:",
-        ":Duke_Aegir:",
-        ":Ionius:",
-        ":Arundel:",
-        ":Acheron:",
-        ":Judith:",
-        ":Gloucester:",
-        ":Nader:",
-        ":Shahid:",
-        ":Gwendal:",
-        ":Lonato:",
-        ":Gilbert:",
-        ":Rodrigue:",
-        ":Gautier:",
-        ":Miklan:",
-        ":Rufus:",
-        ":Lambert:",
+      ],
+      [
         ":Kostas:",
         ":Metodey:",
         ":Pallardo:",
@@ -290,7 +298,8 @@ let data = {
       ]
     ]
   },
-  "sov": {
+  "sov":
+  {
     "sections": ["Portraits", "Official Art", "Gaiden Portraits", "Related"],
     "flairs": [
       [
@@ -455,7 +464,8 @@ let data = {
       ]
     ]
   },
-  "feh": {
+  "feh":
+  {
     "sections": ["Book 1 / Book 6", "Book 2", "Book 3", "Book 4", "Book 5", "Book 7", "Book 8",
       "Exclusive", "Related"
     ],
@@ -534,7 +544,8 @@ let data = {
       [":Veronica-E:"]
     ]
   },
-  "warriors": {
+  "warriors":
+  {
     "sections": ["Official Art"],
     "flairs": [
       [":Rowan:",
@@ -577,7 +588,8 @@ let data = {
       ]
     ]
   },
-  "fates": {
+  "fates":
+  {
     "sections": ["1st Generation Portraits", "2nd Generation Portraits", "Official Art", "Related"],
     "flairs": [
       [
@@ -670,7 +682,7 @@ let data = {
       ],
       [
         ":KanaF:",
-        ":Kana_male:",
+        ":KanaM:",
         ":Shigure:",
         ":Dwyer:",
         ":Midori:",
@@ -741,7 +753,8 @@ let data = {
       ]
     ]
   },
-  "awakening": {
+  "awakening":
+  {
     "sections": ["1st Generation Portraits", "2nd Generation Portraits", "1st Generation Official Art", "2nd Generation Official Art", "Einherjar", "Related"],
     "flairs": [
       [
@@ -897,7 +910,8 @@ let data = {
       ]
     ]
   },
-  "archanea": {
+  "archanea":
+  {
     "sections": ["Shadow Dragon / New Mystery Portraits", "Shadow Dragon Official Art", "New Mystery Official Art", "Mystery of the Emblem Portraits", "BSFE Portraits", "Shadow Dragon & Blade of Light Portraits", "Related"],
     "flairs": [
       [
@@ -1235,7 +1249,8 @@ let data = {
       ]
     ]
   },
-  "genealogy": {
+  "genealogy":
+  {
     "sections": ["1st Generation Portraits", "2nd Generation Portraits", "1st Generation Official Art", "2nd Generation Official Art", "Related"],
     "flairs": [
       [
@@ -1414,7 +1429,8 @@ let data = {
       ]
     ]
   },
-  "thracia": {
+  "thracia":
+  {
     "sections": ["Portraits", "Official Art", "Related"],
     "flairs": [
       [
@@ -1581,7 +1597,8 @@ let data = {
       ]
     ]
   },
-  "seals": {
+  "seals":
+  {
     "sections": ["Portraits", "Official Art", "Related"],
     "flairs": [
       [
@@ -1731,7 +1748,8 @@ let data = {
       ]
     ]
   },
-  "sword": {
+  "sword":
+  {
     "sections": ["Portraits", "Official Art", "Related"],
     "flairs": [
       [":Lyn:",
@@ -1878,7 +1896,8 @@ let data = {
       ]
     ]
   },
-  "stones": {
+  "stones":
+  {
     "sections": ["Portraits", "Official Art", "Related"],
     "flairs": [
       [":Eirika-2:",
@@ -1988,7 +2007,8 @@ let data = {
       ]
     ]
   },
-  "por": {
+  "por":
+  {
     "sections": ["Portraits", "Official Art", "Related"],
     "flairs": [
       [
@@ -2132,7 +2152,8 @@ let data = {
       ]
     ]
   },
-  "rd": {
+  "rd":
+  {
     "sections": ["Portraits", "Official Art", "Related"],
     "flairs": [
       [":Micaiah-3:",
@@ -2324,7 +2345,8 @@ let data = {
       ]
     ]
   },
-  "tms": {
+  "tms":
+  {
     "sections": ["Official Art"],
     "flairs": [
       [
@@ -2376,7 +2398,8 @@ let data = {
       ]
     ]
   },
-  "cipher": {
+  "cipher":
+  {
     "sections": [" "],
     "flairs": [
       [
