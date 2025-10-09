@@ -508,7 +508,8 @@ let data = {
         ":Eir2:",
         ":Hel:",
         ":Lif:",
-        ":Lif2", ":Thrasir:",
+        ":Lif2:", 
+        ":Thrasir:",
         ":Ganglot:",
         ":Ymir-3:"
       ],
