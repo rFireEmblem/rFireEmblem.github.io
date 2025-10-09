@@ -489,7 +489,7 @@ let data = {
         ":KiranM1:",
         ":KiranM2:",
         ":KiranM3:",
-        ":KiranM4"
+        ":KiranM4:"
       ],
       [":Fjorm:",
         ":Fjorm2:",
