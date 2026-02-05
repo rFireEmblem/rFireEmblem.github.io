@@ -9,8 +9,8 @@
 
 */
 const NUMBER_OF_ARRAYS = 42
-const games = ['threehouses', 'archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'feh', 'tms', 'warriors', 'cipher', 'engage']
-const buttons = ['archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'threehouses', 'engage', 'feh', 'tms', 'warriors', 'cipher']
+const games = ['threehouses', 'archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'feh', 'tms', 'warriors', 'cipher', 'engage', 'shadows']
+const buttons = ['archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'threehouses', 'engage', 'feh', 'tms', 'warriors', 'cipher', 'shadows']
 //const themes = ['archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'threehouses','engage', 'feh', 'tms']
 const themes = ['sov', 'stones', 'awakening', 'fates', 'threehouses', 'feh', 'sword', 'archanea', 'genealogy', 'por', 'tms', 'engage']
 let current = 'engage';
@@ -59,6 +59,7 @@ function generateButtonBar() {
       str += `<img class='${themes[i]}theme' src="title_cards/${themes[i]}/${buttons[j]}.png" style="display:none;"`
       if (themes[i] == buttons[j] || 
         (themes[i] == 'sov' && buttons[j] == 'cipher') || 
+        (themes[i] == 'feh' && buttons[j] == 'shadows') || 
         (themes[i] == 'awakening' && buttons[j] == 'warriors') ||
         (themes[i] == 'por' && buttons[j] == 'rd') ||
         (themes[i] == 'genealogy' && buttons[j] == 'thracia') ||
@@ -177,6 +178,10 @@ function filter(game) {
        case 'seals':{
       theme = 'sword'
     }
+    break;
+       case 'shadows':{
+      theme = 'feh'
+    } 
     break;
 
   }

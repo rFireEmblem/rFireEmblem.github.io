@@ -293,8 +293,69 @@ let data = {
       [
         ":BylethM_E:",
         ":Edelgard-E:",
+        ":Edelgard-L:",
+        ":Edelgard-S:",
         ":Dimitri-E:",
-        ":Claude-E:",
+        ":Dimitri-L:",
+        ":Dimitri-S:",
+        ":Claude-E:"
+      ]
+    ]
+  },
+  "shadows":
+  {
+    "sections": ["Light Form", "Legacy Light Form", "Shadow Form", "Legacy Shadow Form"],
+    "flairs": [
+      [
+        ":Kurt:",
+        ":Alberta:",
+        ":Carina:",
+        ":Gotthold:",
+        ":Zasha:",
+        ":Rose:",
+        ":Joachim:",
+        ":Micaela:",
+        ":Estel:",
+        ":Erma:",
+        ":Sai:",
+        ":Shea:",
+        ":Skoll:",
+        ":Hati:",
+        ":Tamamo:",
+        ":Bartolomeus:"
+      ],
+      [
+        ":Lyn-L:",
+        ":Ike-L:",
+        ":CorrinF-L:",
+        ":Edelgard-L:",
+        ":Dimitri-L:",
+        ":Veronica-L:"
+      ],
+      [":Kurt-S:",
+        ":Alberta-S:",
+        ":Carina-S:",
+        ":Gotthold-S:",
+        ":Zasha-S:",
+        ":Rose-S:",
+        ":Joachim-S:",
+        ":Micaela-S:",
+        ":Estel-S:",
+        ":Erma-S:",
+        ":Sai-S:",
+        ":Shea-S:",
+        ":Skoll-S:",
+        ":Hati-S:",
+        ":Tamamo-S:",
+        ":Bartolomeus-S:"
+      ],
+      [
+        ":Lyn-S:",
+        ":Ike-S:",
+        ":CorrinF-S:",
+        ":Edelgard-S:",
+        ":Dimitri-S:",
+        ":Veronica-S:"
       ]
     ]
   },
@@ -508,7 +569,7 @@ let data = {
         ":Eir2:",
         ":Hel:",
         ":Lif:",
-        ":Lif2:", 
+        ":Lif2:",
         ":Thrasir:",
         ":Ganglot:",
         ":Ymir-3:"
@@ -575,7 +636,10 @@ let data = {
         ":Elimine:",
         ":Altina:"
       ],
-      [":Veronica-E:"]
+      [":Veronica-E:",
+        ":Veronica-L:",
+        ":Veronica-S"
+      ]
     ]
   },
   "warriors":
@@ -770,6 +834,8 @@ let data = {
       [
         ":CorrinF-3:",
         ":CorrinF_E:",
+        ":CorrinF-L:",
+        ":CorrinF-S:",
         ":CorrinM-3:",
         ":Azura-3:",
         ":Azura-4:",
@@ -1918,6 +1984,8 @@ let data = {
         ":Lyn-4:",
         ":Lyn-3:",
         ":Lyn_E:",
+        ":Lyn-L:",
+        ":Lyn-S:",
         ":Eliwood-2:",
         ":Eliwood:",
         ":Hector-2:",
@@ -2181,6 +2249,8 @@ let data = {
       ],
       [":Ike-9:",
         ":Ike_E:",
+        ":Ike-L:",
+        ":Ike-S:",
         ":Elincia-8:",
         ":Soren-E:",
       ]
