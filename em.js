@@ -638,7 +638,7 @@ let data = {
       ],
       [":Veronica-E:",
         ":Veronica-L:",
-        ":Veronica-S"
+        ":Veronica-S:"
       ]
     ]
   },
