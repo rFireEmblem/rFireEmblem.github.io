@@ -9,12 +9,12 @@
 
 */
 const NUMBER_OF_ARRAYS = 42
-const games = ['threehouses', 'archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'feh', 'tms', 'warriors', 'cipher', 'engage', 'shadows']
-const buttons = ['archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'threehouses', 'engage', 'feh', 'tms', 'warriors', 'cipher', 'shadows']
+const games = ['fw', 'threehouses', 'archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'feh', 'tms', 'warriors', 'cipher', 'engage', 'shadows']
+const buttons = ['archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'threehouses', 'engage', 'fw', 'feh', 'tms', 'warriors', 'cipher', 'shadows']
 //const themes = ['archanea', 'sov', 'genealogy', 'thracia', 'seals', 'sword', 'stones', 'por', 'rd', 'awakening', 'fates', 'threehouses','engage', 'feh', 'tms']
 const themes = ['sov', 'stones', 'awakening', 'fates', 'threehouses', 'feh', 'sword', 'archanea', 'genealogy', 'por', 'tms', 'engage']
-let current = 'engage';
-let theme = 'engage';
+let current = 'fw';
+let theme = 'threehouses';
 //cipher
 let arrays = {};
 let selected = [];
@@ -60,6 +60,7 @@ function generateButtonBar() {
       if (themes[i] == buttons[j] || 
         (themes[i] == 'sov' && buttons[j] == 'cipher') || 
         (themes[i] == 'feh' && buttons[j] == 'shadows') || 
+        (themes[i] == 'threehouses' && buttons[j] == 'fw') || 
         (themes[i] == 'awakening' && buttons[j] == 'warriors') ||
         (themes[i] == 'por' && buttons[j] == 'rd') ||
         (themes[i] == 'genealogy' && buttons[j] == 'thracia') ||
@@ -166,6 +167,10 @@ function filter(game) {
       theme = 'awakening'
     }
     break;
+       case 'fw':{
+      theme = 'threehouses'
+    }
+    break;
        case 'thracia':{
       theme = 'genealogy'
     }
@@ -225,17 +230,17 @@ async function generate() {
     tempStr += "</div>"
   }
   document.getElementById("main").innerHTML = tempStr
-  let nodes = document.getElementsByClassName(`engage`)
+  let nodes = document.getElementsByClassName(`fw`)
   for (let i = 0; i < nodes.length; i++) {
     let hero = nodes[i];
     hero.style.display = 'inline-block';
   }
 
-  id = `engageimg`;
-  file = `title_cards/engage/engage_sel.png`;
+  id = `fwimg`;
+  file = `title_cards/threehouses/fw_sel.png`;
   document.getElementById(id).src = file;
 
-  nodes = document.getElementsByClassName(`engagetheme`)
+  nodes = document.getElementsByClassName(`threehousestheme`)
   for (let i = 0; i < nodes.length; i++) {
     let hero = nodes[i];
     hero.style.display = 'inline-block';
